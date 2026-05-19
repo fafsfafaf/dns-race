@@ -11,6 +11,22 @@
 curl -fsSL https://raw.githubusercontent.com/fafsfafaf/dns-race/master/dns-race.sh | bash
 ```
 
+## Demo
+
+Recorded with [asciinema](https://asciinema.org/). View it locally:
+
+```bash
+# install asciinema if needed: pip install asciinema
+asciinema play demo.cast
+```
+
+Or upload to asciinema.org for an embeddable badge:
+
+```bash
+asciinema auth      # one-time, opens browser
+asciinema upload demo.cast
+```
+
 ## Why
 
 "Cloudflare is the fastest DNS" — sure, *on average*. But from your specific ISP, in your specific city, at this specific time, it might not be. `dns-race` measures it in 10 seconds.
